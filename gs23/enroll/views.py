@@ -34,6 +34,8 @@ def showformdata(request):
     return render(request,'enroll/userregistration.html',{'form':fmobj})
 #test 1
 
+#test2
+
 
 def StudentApi(request):
     stud=Student.objects.all()
