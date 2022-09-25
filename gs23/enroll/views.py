@@ -32,6 +32,7 @@ def showformdata(request):
     fmobj=StudentRegistration(auto_id=True, label_suffix='-')
     fmobj.order_fields(['email',])
     return render(request,'enroll/userregistration.html',{'form':fmobj})
+#test 1
 
 
 def StudentApi(request):
